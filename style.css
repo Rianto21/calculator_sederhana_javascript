@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  fonr-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.calculator, .container {
+  margin-top: 5vh;
+  max-width: 40vh;
+}
+
+.hasil {
+  background-color: rgba(255, 255, 255, 0.13);
+  min-height: 15vh;
+}
+
+.hasil .previousNumber {
+  color: #a7a7a7
+}
+
+.hasil .currentNumber {
+  font-size: 36px;
+}
+
+.btn {
+  border-radius: 0 !important;
+  height: 3rem;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.btn:active {
+  font-size: 14px;
+}
+
